@@ -11,6 +11,7 @@ YOLOv5 pytorch -> onnx -> caffe -> .wk
 mkdir build
 cd build
 cmake -DCMAKE_TOOLCHAIN_FILE=../hi3559.toolchain.cmake ..
+make -j4
 ./yolo_nnie
 ```
 
